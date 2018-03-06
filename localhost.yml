@@ -6,5 +6,5 @@
 
 - name: Configure the Fedora workstation | user
   hosts: localhost
-  become: true
+  become: false
   roles: [workstation-user]
