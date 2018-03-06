@@ -1,0 +1,10 @@
+---
+- name: Configure the Fedora workstation | system
+  hosts: localhost
+  become: true
+  roles: [workstation]
+
+- name: Configure the Fedora workstation | user
+  hosts: localhost
+  become: true
+  roles: [workstation-user]

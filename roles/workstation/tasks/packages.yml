@@ -1,0 +1,101 @@
+---
+- name: Install repositories
+  package: name="{{ item }}" state=installed
+  with_items:
+    - https://repo.eason.io/eason-release-fc.noarch.rpm
+    - https://repo.eason.io/rpm/noarch/google-chrome-release-1-1.fc22.noarch.rpm
+    - http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-{{ ansible_distribution_major_version }}.noarch.rpm
+
+- name: Install repositories | Spotify
+  yum_repository:
+    name: spotify
+    description: spotify
+    baseurl: http://negativo17.org/repos/spotify/fedora-$releasever/$basearch/
+    gpgkey: http://negativo17.org/repos/RPM-GPG-KEY-slaanesh
+    gpgcheck: yes
+
+- name: Install packages
+  package:
+    name: "{{ item }}"
+    state: installed
+  with_items:
+    - ack
+    - arandr
+    - asciidoc
+    - atom
+    - autorandr
+    - blueman
+    - cloc
+    - composer
+    - ctags
+    - curl
+    - dmenu
+    - dnsmasq
+    - docker
+    - docker-compose
+    - dunst
+    - evolution
+    - firefox
+    - gigolo
+    - git
+    - gitg
+    - gitstats
+    - google-chrome-unstable
+    - i3lock
+    - iperf
+    - ipython
+    - jq
+    - keychain
+    - konsole
+    - meld
+    - mutt
+    - mycli
+    - mysql-workbench-community
+    - network-manager-applet
+    - nmap
+    - nodejs
+    - npm
+    - openbox
+    - pandoc
+    - pass
+    - pavucontrol
+    - pcmanfm
+    - psmisc
+    - python-pip
+    - python-virtualenvwrapper
+    - rpm-build
+    - rpm-devel
+    - rpm-sign
+    - rpmdevtools
+    - rpmlint
+    - rubygem-asciidoctor
+    - rxvt-unicode
+    - scrot
+    - sensible-utils
+    - spectacle
+    - spotify-client
+    - sshuttle
+    - sxhkd
+    - system-config-printer
+    - tcpdump
+    - thunderbird
+    - thunderbird-enigmail
+    - tig
+    - tint2
+    - tmux
+    - unison240
+    - urlview
+    - vim
+    - vim-X11
+    - vlc
+    - volumeicon
+    - w3m
+    - wget
+    - wireshark-gtk
+    - wmctrl
+    - x2x
+    - xautolock
+    - xbacklight
+    - xclip
+    - xsel
+    - zsh

@@ -1,0 +1,11 @@
+eday.eason.io
+bute.eason.io
+coll.eason.io
+
+[dns-servers]
+eday.eason.io
+bute.eason.io
+coll.eason.io
+
+[local]
+localhost ansible_connection=local
