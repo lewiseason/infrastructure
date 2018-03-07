@@ -51,6 +51,7 @@
     - mutt
     - mycli
     - mysql-workbench-community
+    - neovim
     - network-manager-applet
     - nmap
     - nodejs
@@ -63,6 +64,8 @@
     - psmisc
     - python-pip
     - python-virtualenvwrapper
+    - python2-neovim
+    - python3-neovim
     - rpm-build
     - rpm-devel
     - rpm-sign
