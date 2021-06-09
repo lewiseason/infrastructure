@@ -45,7 +45,6 @@
     - ipython
     - jq
     - keychain
-    - konsole
     - lastpass-cli
     - meld
     - mutt
@@ -81,8 +80,6 @@
     - sxhkd
     - system-config-printer
     - tcpdump
-    - thunderbird
-#     - thunderbird-enigmail
     - tig
     - tint2
     - tmux
@@ -96,7 +93,6 @@
     - wget
     - wireshark-gtk
     - wmctrl
-    - x2x
     - xautolock
     - xbacklight
     - xclip
