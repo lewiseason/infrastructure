@@ -46,7 +46,7 @@
     - jq
     - keychain
     - konsole
-    - lastpast-cli
+    - lastpass-cli
     - meld
     - mutt
     - mycli
