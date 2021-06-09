@@ -91,7 +91,7 @@
     - volumeicon
     - w3m
     - wget
-    - wireshark-gtk
+    - wireshark
     - wmctrl
     - xautolock
     - xbacklight
