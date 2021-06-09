@@ -2,8 +2,6 @@
 - name: Install repositories
   package: name="{{ item }}" state=installed
   with_items:
-    - https://repo.eason.io/eason-release-fc.noarch.rpm
-    - https://repo.eason.io/rpm/noarch/google-chrome-release-1-1.fc22.noarch.rpm
     - http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-{{ ansible_distribution_major_version }}.noarch.rpm
 
 - name: Install repositories | Spotify
