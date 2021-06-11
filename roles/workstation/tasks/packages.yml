@@ -47,10 +47,10 @@
     - ack
     - arandr
     - asciidoc
-#     - atom
     - autorandr
     - blueman
     - cloc
+    - code
     - composer
     - conky
     - ctags
@@ -61,12 +61,15 @@
     - docker-compose
     - dunst
     - evolution
+    - exfalso
+    - feh
     - firefox
+    - fuse-sshfs
     - gigolo
     - git
     - gitg
     - gitstats
-#     - google-chrome-unstable
+    - google-chrome-stable
     - i3lock
     - iperf
     - ipython
@@ -76,7 +79,6 @@
     - meld
     - mutt
     - mycli
-#     - mysql-workbench-community
     - neovim
     - network-manager-applet
     - nmap
@@ -87,11 +89,12 @@
     - pass
     - pavucontrol
     - pcmanfm
+    - perl-sort
     - psmisc
     - python-pip
     - python-virtualenvwrapper
-#     - python2-neovim
     - python3-neovim
+    - quodlibet
     - rpm-build
     - rpm-devel
     - rpm-sign
@@ -99,7 +102,6 @@
     - rpmlint
     - rubygem-asciidoctor
     - rxvt-unicode
-#     - scrot
     - sensible-utils
     - spectacle
     - spotify-client
@@ -110,7 +112,6 @@
     - tig
     - tint2
     - tmux
-    - unison240
     - urlview
     - vim
     - vim-X11
