@@ -7,10 +7,10 @@
     - https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-{{ ansible_distribution_major_version }}.noarch.rpm
     - https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-{{ ansible_distribution_major_version }}.noarch.rpm
 
-- name: Install repositories | sphagnum
-  get_url:
-    url: https://repo.sphagnum.uk/sphagnum-fc.repo
-    dest: /etc/yum.repos.d/sphagnum.repo
+#- name: Install repositories | sphagnum
+#  get_url:
+#    url: https://repo.sphagnum.uk/sphagnum-fc.repo
+#    dest: /etc/yum.repos.d/sphagnum.repo
 
 - name: Install repositories | workstation
   package:
@@ -63,6 +63,7 @@
     - evolution
     - exfalso
     - feh
+    - ffmpeg
     - firefox
     - fuse-sshfs
     - gigolo
@@ -103,11 +104,13 @@
     - rubygem-asciidoctor
     - rxvt-unicode
     - sensible-utils
+    - snapd
     - spectacle
     - spotify-client
     - sshuttle
     - sxhkd
     - system-config-printer
+    - syncthing
     - tcpdump
     - tig
     - tint2
