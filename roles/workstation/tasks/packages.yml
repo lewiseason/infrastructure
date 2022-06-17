@@ -128,4 +128,5 @@
     - xbacklight
     - xclip
     - xsel
+    - xset
     - zsh
