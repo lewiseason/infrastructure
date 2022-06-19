@@ -127,6 +127,7 @@
     - xautolock
     - xbacklight
     - xclip
+    - xdotool
     - xsel
     - xset
     - zsh
