@@ -45,7 +45,6 @@
     name:
       - ack
       - arandr
-      - asciidoc
       - autorandr
       - blueman
       - cloc
@@ -56,13 +55,11 @@
       - ctags
       - curl
       - dmenu
-      - dnsmasq
       - docker-ce
       - docker-ce-cli
       - docker-compose-plugin
       - dunst
       - exfalso
-      - feh
       - ffmpeg
       - firefox
       - fuse-sshfs
