@@ -61,6 +61,7 @@
       - docker-compose-plugin
       - dunst
       - exfalso
+      - feh
       - ffmpeg
       - firefox
       - fuse-sshfs
@@ -82,6 +83,7 @@
       - mycli
       - neovim
       - network-manager-applet
+      - nextcloud-client
       - nmap
       - nodejs
       - npm
