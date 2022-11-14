@@ -2,4 +2,4 @@
 - import_tasks: packages.yml
 - import_tasks: users.yml
 - import_tasks: services.yml
-- import_tasks: yubikey.yml
+- import_tasks: hardware.yml

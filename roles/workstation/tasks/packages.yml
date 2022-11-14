@@ -136,3 +136,9 @@
       - xset
       - zsh
     state: installed
+
+- name: Install packages:
+  pip:
+    name:
+      - busylight-for-humans
+      - youtube-dl

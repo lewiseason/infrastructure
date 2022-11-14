@@ -1,5 +1,0 @@
----
-- name: udev rules for yubikey
-  template:
-    src: 50-u2f.rules
-    dest: /etc/udev/rules.d

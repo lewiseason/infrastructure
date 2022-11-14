@@ -1,0 +1,10 @@
+---
+- name: udev rules for yubikey
+  template:
+    src: 50-u2f.rules
+    dest: /etc/udev/rules.d
+
+- name: udev rules for busylight
+  shell: busylight udev-rules -o /etc/udev/rules.d/99-busylights.rules
+  args:
+    creates: /etc/udev/rules.d/99-busylights.rules
