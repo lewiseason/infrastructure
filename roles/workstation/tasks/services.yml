@@ -6,3 +6,14 @@
   with_items:
     - docker
     - syncthing@leason
+
+- name: Disable services
+  service:
+    name: "{{ item }}"
+    enabled: no
+    state: stopped
+  with_items:
+    - abrt-journal-core
+    - abrt-oops
+    - abrt-xorg
+    - abrtd
