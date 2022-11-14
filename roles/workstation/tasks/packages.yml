@@ -137,7 +137,7 @@
       - zsh
     state: installed
 
-- name: Install packages:
+- name: Install packages
   pip:
     name:
       - busylight-for-humans
