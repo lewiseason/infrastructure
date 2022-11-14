@@ -60,17 +60,19 @@
     - docker
     - docker-compose
     - dunst
-    - evolution
     - exfalso
     - feh
     - ffmpeg
     - firefox
     - fuse-sshfs
     - gigolo
+    - gimp
     - git
+    - git-cola
     - gitg
     - gitstats
     - google-chrome-stable
+    - httpie
     - i3lock
     - iperf
     - ipython
@@ -97,6 +99,7 @@
     - python-virtualenvwrapper
     - python3-neovim
     - quodlibet
+    - remmina
     - rpm-build
     - rpm-devel
     - rpm-sign
@@ -110,15 +113,17 @@
     - spotify-client
     - sshuttle
     - sxhkd
-    - system-config-printer
     - syncthing
+    - system-config-printer
     - tcpdump
+    - thunderbird
     - tig
     - tint2
     - tmux
     - urlview
     - vim
     - vim-X11
+    - virt-manager
     - vlc
     - volumeicon
     - w3m
