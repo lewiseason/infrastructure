@@ -5,3 +5,4 @@
     state: started
   with_items:
     - docker
+    - syncthing@leason
