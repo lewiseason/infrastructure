@@ -41,7 +41,7 @@
     enablerepo: google-chrome
     state: present
 
-- name: Install packages
+- name: Install packages | dnf
   package:
     name:
       - ack
@@ -139,8 +139,16 @@
       - zsh
     state: installed
 
-- name: Install packages
+- name: Install packages | pip
   pip:
     name:
       - busylight-for-humans
       - youtube-dl
+
+- name: Install packages | snap
+  snap:
+    name:
+      - dbeaver-ce
+      - inkdrop
+      - postman
+      - slack
