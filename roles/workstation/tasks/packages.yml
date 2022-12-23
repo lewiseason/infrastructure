@@ -58,6 +58,7 @@
       - dmenu
       - docker-ce
       - docker-ce-cli
+      - docker-compose
       - docker-compose-plugin
       - dunst
       - exfalso
@@ -93,6 +94,7 @@
       - passmenu
       - pavucontrol
       - pcmanfm
+      - peek
       - perl-sort
       - psmisc
       - python-pip
@@ -136,6 +138,7 @@
       - xdotool
       - xsel
       - xset
+      - zlib-devel
       - zsh
     state: installed
 
