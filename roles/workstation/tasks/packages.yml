@@ -45,9 +45,9 @@
   package:
     name:
       - ack
-      - arandr
-      - autorandr
-      - blueman
+      #- arandr
+      #- autorandr
+      #- blueman
       - cloc
       - code
       - composer
@@ -60,9 +60,9 @@
       - docker-ce-cli
       - docker-compose
       - docker-compose-plugin
-      - dunst
+      #- dunst
       - exfalso
-      - feh
+      #- feh
       - ffmpeg
       - firefox
       - fuse-sshfs
@@ -80,7 +80,7 @@
       - jq
       - keychain
       - meld
-      - mutt
+      #- mutt
       - mycli
       - neovim
       - network-manager-applet
@@ -102,12 +102,12 @@
       - python3-neovim
       - quodlibet
       - remmina
-      - rpm-build
-      - rpm-devel
-      - rpm-sign
-      - rpmdevtools
-      - rpmlint
-      - rubygem-asciidoctor
+      #- rpm-build
+      #- rpm-devel
+      #- rpm-sign
+      #- rpmdevtools
+      #- rpmlint
+      #- rubygem-asciidoctor
       - rxvt-unicode
       - sensible-utils
       - snapd
@@ -116,24 +116,24 @@
       - sshuttle
       - sxhkd
       - syncthing
-      - system-config-printer
+      #- system-config-printer
       - tcpdump
       - thunderbird
       - tig
-      - tint2
+      #- tint2
       - tmux
       - urlview
       - vim
       - vim-X11
       - virt-manager
       - vlc
-      - volumeicon
+      #- volumeicon
       - w3m
       - wget
       - wireshark
       - wmctrl
       - xautolock
-      - xbacklight
+      #- xbacklight
       - xclip
       - xdotool
       - xsel
