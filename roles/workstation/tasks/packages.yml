@@ -63,7 +63,7 @@
       #- dunst
       - exfalso
       #- feh
-      - ffmpeg
+      #- ffmpeg
       - firefox
       - fuse-sshfs
       - gigolo
